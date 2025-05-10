@@ -103,7 +103,7 @@ mm.add("(max-width: 767px)", () => {
 
   return (
     <div className='w-full overflow-hidden'>
-      {/* Splash SVG Animation */}
+      
       <div className='svg flex items-center justify-center fixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-[#000]'>
         <svg viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'>
           <defs>
@@ -136,9 +136,9 @@ mm.add("(max-width: 767px)", () => {
 
       {showContent && (
         <div className='main w-full overflow-hidden scale-[1.5] rotate-[-10deg]'>
-          {/* Landing Page */}
+          
           <div className='landing overflow-hidden w-full h-screen bg-black'>
-            {/* Navbar */}
+            
             <div className='navbar w-full py-7 px-4 sm:px-8 absolute top-0 left-0 z-10'>
               <div className='logo flex gap-5 items-center'>
                 <div className='lines flex flex-col gap-[5px]'>
@@ -150,7 +150,7 @@ mm.add("(max-width: 767px)", () => {
               </div>
             </div>
 
-            {/* Image Background */}
+           
             <div className='imgesdiv w-full h-screen overflow-hidden relative'>
               <img
                 className='w-full h-full object-cover scale-[1.5] rotate-[-20deg] absolute top-0 left-0 sky'
@@ -174,7 +174,6 @@ mm.add("(max-width: 767px)", () => {
               />
             </div>
 
-            {/* Bottom Bar */}
             <div className='btmbar text-white w-full py-10 px-4 sm:px-8 absolute bottom-[50%] left-0 z-10 bg-gradient-to-t from-black to-transparent'>
               <div className='flex items-center gap-2'>
                 <i className='text-lg ri-arrow-down-line font-extralight'></i>
@@ -190,10 +189,10 @@ mm.add("(max-width: 767px)", () => {
             </div>
           </div>
 
-          {/* Content Section */}
+       
           <div className='w-full overflow-hidden h-auto min-h-screen flex flex-col lg:flex-row px-4 sm:px-10 py-10 items-center justify-center'>
             <div className='cntnr w-full flex flex-col lg:flex-row items-center justify-between h-full'>
-              {/* Left Image */}
+            
               <div className='limg w-full lg:w-1/2 relative h-[300px] sm:h-[400px] lg:h-full'>
                 <img
                   className='absolute scale-[.8] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
@@ -202,7 +201,7 @@ mm.add("(max-width: 767px)", () => {
                 />
               </div>
 
-              {/* Right Content */}
+             
               <div className='right text-white mt-10 lg:mt-0 w-full lg:w-[40%]'>
                 <h1 className='text-4xl sm:text-6xl lg:text-7xl leading-tight'>
                   Still Running,
